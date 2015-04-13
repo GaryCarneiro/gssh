@@ -1,3 +1,4 @@
 require 'net/ssh'
-require 'net/scp'                               # This guy does 10% Hardwork
+require 'net/scp'
 require 'highline/import'
+require 'resolv'

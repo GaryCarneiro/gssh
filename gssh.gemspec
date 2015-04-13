@@ -11,6 +11,7 @@ Gem::Specification.new do |s|
   s.email    = "todo@project.com"
   s.homepage = "https://github.com/GaryCarneiro/gssh"
   s.authors  = ['Garfield Carneiro']
+  s.license  = "MIT"
   
   s.description = <<-EOF
   Given a hostname and list of files it copies to remote host before spawning ssh client.
@@ -19,9 +20,9 @@ EOF
   dependencies = [
     # Examples:
     # [:runtime,     "rack",  "~> 1.1"],
-    [:runtime,     "net-ssh", "~> 2.9.2"],
-    [:runtime,     "net-scp", "~> 1.2.1"],
-    [:runtime,     "highline", "~> 1.7.1"],
+    [:runtime,     "net-ssh", "~> 2.9", ">= 2.9.2"],
+    [:runtime,     "net-scp", "~> 1.2", ">= 1.2.1"],
+    [:runtime,     "highline", "~> 1.7", ">=1.7.1"],    
     # [:development, "rspec", "~> 2.1"],
   ]
   

@@ -7,13 +7,13 @@ Gem::Specification.new do |s|
   s.name     = "gssh"
   s.version  = Gssh::VERSION.dup
   s.date     = "2015-04-12"
-  s.summary  = "TODO: Summary of project"
+  s.summary  = "Copies Profile files before ssh'ing"
   s.email    = "todo@project.com"
   s.homepage = "http://todo.project.com/"
-  s.authors  = ['Me Todo']
+  s.authors  = ['GaryCarneiro']
   
   s.description = <<-EOF
-TODO: Long description 
+  Given a hostname and list of files it copies to remote host before spawning ssh client.
 EOF
   
   dependencies = [
